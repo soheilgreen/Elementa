@@ -1,0 +1,86 @@
+site_name: Elementa
+site_description: Open-source Finite Element Method simulation workbench for Python
+site_author: Soheil Hajibaba
+site_url: https://soheilgreen.github.io/elementa/
+
+repo_name: soheilgreen/elementa
+repo_url: https://github.com/soheilgreen/elementa
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.snippets:
+      base_path: ["."]
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: guides/installation.md
+    - Quickstart: guides/quickstart.md
+    - Examples: guides/examples.md
+  - User Guide:
+    - Interface Overview: guides/interface.md
+    - Parametric Geometry: guides/geometry.md
+    - Meshing: guides/meshing.md
+    - Physics & Boundary Conditions: guides/physics.md
+    - Running a Study: guides/study.md
+    - Post-Processing: guides/postprocessing.md
+    - Project Files: guides/project-files.md
+  - Developer Guide:
+    - Architecture: guides/architecture.md
+    - Adding a Physics Module: guides/adding-physics.md
+    - Adding a Geometry Primitive: guides/adding-geometry.md
+  - API Reference:
+    - elementa.core: api/core.md
+    - elementa.cad: api/cad.md
+    - elementa.physics: api/physics.md
+  - Changelog: changelog.md
+  - Contributing: contributing.md
+  - License: license.md
