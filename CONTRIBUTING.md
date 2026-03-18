@@ -78,7 +78,7 @@ See `docs/guides/adding-physics.md` for a detailed walkthrough.
 
 ## Reporting Bugs
 
-Open an issue at <https://github.com/soheilhajibaba/elementa/issues> with:
+Open an issue at <https://github.com/soheilgreen/elementa/issues> with:
 
 - A minimal reproducible example.
 - Python version, OS, and package versions (`pip show elementa-fem`).
