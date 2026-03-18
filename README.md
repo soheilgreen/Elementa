@@ -6,8 +6,8 @@
 
 **Open-source Finite Element Method (FEM) simulation workbench for Python**
 
-[![PyPI version](https://img.shields.io/pypi/v/elementa?color=blue&logo=pypi&logoColor=white)](https://pypi.org/project/elementa/)
-[![Python](https://img.shields.io/pypi/pyversions/elementa?logo=python&logoColor=white)](https://pypi.org/project/elementa/)
+[![PyPI version](https://img.shields.io/pypi/v/elementa?color=blue&logo=pypi&logoColor=white&cacheSeconds=0)](https://pypi.org/project/elementa/)
+[![Python](https://img.shields.io/pypi/pyversions/elementa?logo=python&logoColor=white&cacheSeconds=0)](https://pypi.org/project/elementa/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![CI](https://github.com/soheilgreen/elementa/actions/workflows/ci.yml/badge.svg)](https://github.com/soheilgreen/elementa/actions/workflows/ci.yml)
 [![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://soheilgreen.github.io/elementa/)
